@@ -1,7 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Överskrift(heading) test</h1>
-    <p>Paragraf test</p>
-  </body>
+
+	<head>
+		<title>
+			Matportfolio
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+
+			html
+			{
+				font-family: Arial;
+				margin-left: 45px;
+				margin-right: 45px;
+				text-align: center;
+			}
+			
+	
+			
+			h1, h2, h3, h4, h5, h6 
+			{
+				color: rgb(68, 68, 68);
+				padding-top: 45px;
+				padding-bottom: 1px;
+				margin: 0px;
+			}
+			
+			p 
+			{
+				color: rgb(68, 68, 68);
+				font-size:20px;
+				padding-top: 5px;
+				padding-bottom: 10px;
+				margin: 0px;
+				line-height: 26px;
+			}
+			
+			
+			
+			
+			.matbild
+			{
+				width: 350px;
+				height: 350px;
+				object-fit: cover;
+				object-position: 40% 70%;
+				margin-top: 18px;
+				border-radius: 50%;
+				box-shadow: 1px 1px 3px rgb(94, 94, 94);
+			}
+			
+			
+			@media screen and (min-width: 200px) and (max-width: 767px ) 
+			{
+				
+				html
+				{
+					font-size: 14px;
+					margin-left: 7px;
+					margin-right: 7px;
+				}
+				
+				p
+				{
+					font-size: 14px;
+				}
+
+				.matbild
+				{
+					width: 250px;
+					height: 250px;
+				}
+			} 					
+			
+		</style>
+		
+	</head>
+	<body>
+	<img class="matbild" src="Bilder/20250613_150049.jpg">	
+	
+	<h1 class="title-padding">
+		Välkommen / Welcome
+	</h1>
+	<p>
+		Var god välj språk / Please choose language
+	<br>
+	<br>
+		<a href="matportfolio.html">Svenska</a>
+	<br>
+		<a href="matportfolio_en.html">English</a>
+	</p>
+	</body>
 </html>
+		
